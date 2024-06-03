@@ -1,0 +1,62 @@
+/*
+COLOR PALETTE
+
+Color1
+
+*/
+
+/* GLOBAL STYLES 
+-------------------------------*/
+body {
+    background: #FAE1B6;
+}
+/* links */
+a {
+    color: #4D3000;
+}
+
+a:hover {
+    color: #684d22
+}
+footer a {
+    color: #684d22
+}
+footer a:hover {
+    color: #4D3000;
+}
+.btn {
+    background:#4D3000;
+    color: #FAE1B6;
+    text-decoration: none;
+}
+
+/* RESUME 
+-------------------------------*/
+#resume {
+    background: url(../images/joanna-kosinska-unsplash.jpg) center;
+    background-size: cover;
+}
+
+#resume .container {
+    background: rgb(250 225 182 / 0.9);
+}
+
+#resume img {
+    max-width: 40%;
+    height: auto;
+}
+/* Profile
+-------------------------------*/
+
+/* Work Experience
+-------------------------------*/
+
+/* Education
+-------------------------------*/
+
+/* FOOTER 
+-------------------------------*/
+footer {
+    background: #4D3000;
+    color: #F7C774;
+}

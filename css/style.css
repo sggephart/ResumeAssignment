@@ -1,8 +1,17 @@
 /*
+    author: Samantha Gephart
+    file: style.css
+    Date: June 3, 2024
+    Resume Assignment
+*/
+
+/*
 COLOR PALETTE
 
-Color1
-
+Color 1: #FAE1B6;
+Color 2: #4D3000;
+Color 3: #684d22;
+Color 4: #F7C774;
 */
 
 /* GLOBAL STYLES 
@@ -10,20 +19,24 @@ Color1
 body {
     background: #FAE1B6;
 }
+
 /* links */
 a {
     color: #4D3000;
 }
 
 a:hover {
-    color: #684d22
+    color: #684d22;
 }
+
 footer a {
-    color: #684d22
+    color: #684d22;
 }
+
 footer a:hover {
     color: #4D3000;
 }
+
 .btn {
     background:#4D3000;
     color: #FAE1B6;

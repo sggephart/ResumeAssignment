@@ -16,10 +16,38 @@ Color 4: #F7C774;
 
 /* GLOBAL STYLES 
 -------------------------------*/
-body {
-    background: #FAE1B6;
+html {
+    box-sizing: border-box;
+}
+ 
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background: white; /* Off-white?*/
+    margin: 0;
+    color: #4D3000;
+}
+
+h1 {
+    text-align: left;
+    font-size: 80px;
+}
+
+#vertical {
+    font-size: 12px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+}
+.header {
+    display: inline-block;
+}
 /* links */
 a {
     color: #4D3000;
@@ -41,22 +69,49 @@ footer a:hover {
     background:#4D3000;
     color: #FAE1B6;
     text-decoration: none;
+    padding: 3px;
+    border-radius: 4px;
 }
 
+.container {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
 /* RESUME 
 -------------------------------*/
-#resume {
+header::before {
     background: url(../images/joanna-kosinska-unsplash.jpg) center;
     background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
 }
 
 #resume .container {
-    background: rgb(250 225 182 / 0.9);
+    background: rgb(255 255 255 / 0.9);
+}
+
+.resume-section {
+    margin-bottom: 50px;
+}
+.container h2 {
+    border-bottom: 2px dotted #d3d4d6;
 }
 
 #resume img {
     max-width: 40%;
     height: auto;
+}
+
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+}
+.project-item img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
 }
 /* Profile
 -------------------------------*/
@@ -72,4 +127,22 @@ footer a:hover {
 footer {
     background: #4D3000;
     color: #F7C774;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.socials {
+    list-style-type: none;
+}
+
+.socials li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.socials img {
+    width: 75px;
+}
+.socials img:hover {
+    opacity: 0.5;
 }

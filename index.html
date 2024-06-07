@@ -11,28 +11,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samantha Gephart</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
   </head>
+
   <body id="resume">
-    <main>
-        <div class="container">
         <!-- ***********************  ABOUT / PROFILE  *********************** -->
         <header>
-            <h1>Samantha Gephart</h1>
+            <div class="container">
+            <h1 class="header" id="vertical">WEB SOLUTIONS</h1>
+            <h1 class="header">Samantha Gephart</h1>
             <h2>Web & Software Development Student</h2>
 
             <p>I am a Web and Software Development student at Wake Technical Community College. I use my background in front and back end development to create 
             websites and software tailored to your needs every step of the way. 
             </p>
             <p>Find out more about my work and interests here.</p>
+        </div>
         </header>
 
         <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-        <section>
+        <main class="container">
+        <section class="resume-section">
             <h2>Projects</h2>
             <p><b>NCSU Make-A-Thon 1st place - Mandu</b><br><a href="https://park.ncsu.edu/2021/02/25/make-a-thon/">A Winning Solution to Reducing Food Waste</a></p>
 
             <!-- Copy the whole <section> block to add more projects. -->
-            <section>
+            <section class="project-item">
             <h3>Mandu</h3>
             <img src="images/project1-team.jpeg" alt="description of image">
             <p>Collaborated with a team to create an 1st place winning app prototype <i>Mandu</i> that steers food from landfills and into the community.<br>
@@ -43,7 +50,7 @@
         </section>
 
         <!-- ***********************  WORK EXPERIENCE  *********************** -->
-        <section>
+        <section class="resume-section">
             <h2>Work Experience</h2>
 
             <!-- Copy this whole <section> block to add more jobs. -->
@@ -62,31 +69,31 @@
         </section>
 
         <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-        <section>
+        <section class="resume-section">
             <h2>Education</h2>
 
             <!-- Copy this whole <section> block to add more schools. -->
             <section>
             <h3>Wake Technical Community College - Raleigh</h3>
             <p>Mathematics and Computer Science, 2024</p>
-            <p> <b>Languages in order of proficiency:</b> Java, Python, HTML, CSS, JavaScript, C++, R </p>
+            <p> <b>Languages in order of proficiency:</b> Java, Python, HTML, CSS, JavaScript, C++ </p>
             <p><b>Tools & Technologies: </b> Git, Jenkins, Linux, Bash, Adobe Photoshop</p>
             </section>
             <!-- End of School block. -->
         </section>
     </div>
+    </main>
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
         <h2>Contact Me</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
+        <ul class="socials">
+          <li><a href="mailto:email@example.com"><img src="images/icon-logo-outlook.png" alt="Outlook logo"></a></li>
           <li><a href="https://x.com" target="_blank"><img src="images/icon-logo-twitter.png" alt="Twitter logo"></a></li>
           <li><a href="https://www.linkedin.com" target="_blank"><img src="images/icon-logo-linkedin.png" alt="LinkedIn logo"></a></li>
           <li><a href="https://www.facebook.com" target="_blank"><img src="images/icon-logo-facebook.png" alt="Facebook logo"></a></li>
         </ul>
       </footer>
-    </main>
   </body>
 </html>
